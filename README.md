@@ -1,12 +1,11 @@
 # SST23
 Introduction 
 
-     Throughout the classes of software security & testing we learned many different security measures to secure your (web)app better. We have created a .NET website and we want to investigate how well equipped the average website is against a few common cyber attack methods.  
-     In this document we will discuss the different methods and see how resistant our website is against these methods. After doing an analysis we will try to introduce vulnerabilities to these attacks on these websites.  
+Throughout the classes of software security & testing we learned many different security measures to secure your (web)app better. We have created a .NET website and we want to investigate how well equipped the average website is against a few common cyber attack methods.  
+In this document we will discuss the different methods and see how resistant our website is against these methods. After doing an analysis we will try to introduce vulnerabilities to these attacks on these websites.  
 
- 
 
-HTTPS 
+# HTTPS 
 
 HTTP is a protocol that is used to transmit data between a client and a server. The client requests data from the server and waits for a response from the server. HTTP is stateless meaning that there is no way of telling how requests are linked with one another. Usually this is fixed with cookies. 
 HTTPS is an extension on this protocol. It uses SSL(Secure Socket Layer) to provide additional security. The SSL makes sure that all data between these parties are encrypted. 
