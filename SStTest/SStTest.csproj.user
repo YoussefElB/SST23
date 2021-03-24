@@ -15,5 +15,6 @@
     <WebStackScaffolding_DbContextTypeFullName>SStTest.Data.MvcMovieContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
+    <NameOfLastUsedPublishProfile>C:\Users\kasmi\OneDrive\Documenten\GitHub\SST23\SStTest\Properties\PublishProfiles\RGMovieApp - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

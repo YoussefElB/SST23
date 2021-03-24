@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using SStTest.Data;
 
+
 namespace SStTest
 {
     public class Startup
@@ -18,7 +19,9 @@ namespace SStTest
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+
         }
+
 
         public IConfiguration Configuration { get; }
 
@@ -28,6 +31,7 @@ namespace SStTest
             services.AddControllersWithViews();
             services.AddDbContext<MvcMovieContext>(options =>
                options.UseSqlServer(Configuration.GetConnectionString("MvcMovieContext")));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

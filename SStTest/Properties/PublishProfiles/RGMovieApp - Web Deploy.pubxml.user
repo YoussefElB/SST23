@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAV5i+GK9f6kq6ul26geHT2gAAAAACAAAAAAAQZgAAAAEAACAAAABtByAJcS/GBdQNECBy0j+RKPxe3MiDZU3kKOrM4iXhXQAAAAAOgAAAAAIAACAAAACzFbDTICRFJMWnAfN70Sf3ywNP0OielOaYzoyPxGzhg4AAAAAZT7aRBHdeWQL3B0kzD3kEQv9T+pK3gwuITlZ+SL1Tpvc0Pr2X3pDsw5ZY0Csc2RkTWb1WfXqZ2Lf+gVaDT1jfgw9u6+GfLo9w2rbv4CYtvDWzAWMCoD6IR75CVk+4evoisLGk9quC5FJNBTJ6vspVPWTBVD6PcI0/B495w0nwbEAAAADOpb2vEsr20F1XiyBXZMOk24JDc7F+VJIPcgebSqY46vfkRIvSPNlLwCv48lwlSKuEF00vzFFSwtY2+dHMh+2Y</EncryptedPassword>
+    <History>True|2021-03-23T21:26:38.8277997Z;True|2021-03-23T19:56:51.7146643+01:00;True|2021-03-23T17:44:44.2611357+01:00;False|2021-03-23T17:43:50.4391625+01:00;True|2021-03-23T17:39:03.8912359+01:00;True|2021-03-23T17:35:27.5199328+01:00;True|2021-03-23T17:32:19.6482147+01:00;True|2021-03-23T17:29:47.0621419+01:00;True|2021-03-23T17:00:55.4132751+01:00;True|2021-03-23T16:54:29.8202311+01:00;True|2021-03-23T16:37:52.2662607+01:00;True|2021-03-23T16:35:54.0538712+01:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="MvcMovieContext">
+      <Value>Data Source=tcp:ssttestdbserver.database.windows.net,1433%3bInitial Catalog=SStTest_db%3bUser Id=s117684%40ap.be%40ssttestdbserver%3bPassword=jF3tW2s&amp;</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
